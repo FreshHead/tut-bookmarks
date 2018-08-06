@@ -12,10 +12,10 @@ import ru.univeralex.tutbookmarks.repository.BookmarkRepository;
 import java.util.Arrays;
 
 @SpringBootApplication
-public class TutBookmarksApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TutBookmarksApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 	@Bean
